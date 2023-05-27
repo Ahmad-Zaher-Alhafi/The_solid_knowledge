@@ -1,0 +1,67 @@
+#=============== 
+#Unity generated
+#===============
+Temp/
+Library/
+MemoryCaptures/
+
+#=====================================
+#Visual Studio / MonoDevelop generated
+#=====================================
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+
+#============
+#OS generated
+#============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.vs
+.vscode
+.idea
+
+Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked*
+bin/
+UserSettings/
+Logs/
+
+
+# --FMOD SECTION--
+
+# Never ignore DLLs in the FMOD subfolder.
+!/[Aa]ssets/Plugins/FMOD/**/lib/*
+
+# Don't ignore images and gizmos used by FMOD in the Unity Editor.
+!/[Aa]ssets/Gizmos/FMOD/*
+!/[Aa]ssets/Editor Default Resources/FMOD/*
+                    
+# Ignore the Cache folder since it is updated locally.
+/[Aa]ssets/Plugins/FMOD/Cache/*
+                    
+# Ignore bank files in the StreamingAssets folder.
+/[Aa]ssets/StreamingAssets/**/*.bank
+/[Aa]ssets/StreamingAssets/**/*.bank.meta
+                    
+# If the source bank files are kept outside of the StreamingAssets folder then these can be ignored.
+# Log files can be ignored.
+fmod_editor.log
+**/.cache
+ProfilerSession/
+.unsaved/
+# --FMOD SECTION END--
+ProjectSettings/RiderScriptEditorPersistedState.asset
