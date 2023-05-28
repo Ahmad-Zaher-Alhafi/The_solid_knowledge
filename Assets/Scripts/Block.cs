@@ -11,7 +11,7 @@ public abstract class Block : PooledObject {
 
     private float initialPlacingTime;
     private Color initialColor;
-    
+
     public Bounds Bounds => meshRenderer.bounds;
     public bool Highlighted {
         get => highlighted;
@@ -80,7 +80,7 @@ public abstract class Block : PooledObject {
 
         blockData = null;
         initialPlacingTime = placingTime;
-
+        Highlighted = false;
         placingTween?.Kill();
         ReturnToPool();
     }
